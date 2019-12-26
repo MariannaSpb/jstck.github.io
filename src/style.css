@@ -1,0 +1,44 @@
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts.css);
+@import url(./blocks/button.css);
+@import url(./blocks/header.css);
+@import url(./blocks/footer.css);
+@import url(./blocks/service.css);
+@import url(./blocks/promo.css);
+@import url(./blocks/collaboration.css);
+@import url(./blocks/reviews.css);
+@import url(./blocks/rates.css);
+@import url(./blocks/about.css);
+@import url(./blocks/feedback.css);
+
+
+body {
+  /* min-width: 1140px; */
+  margin: 0 auto;
+  color: #898E93;
+  /* font-family: "Avenir Next", "Arial", sans-serif; */
+  font-family: 'Open Sans', "Arial", sans-serif;
+  background-color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: greyscale;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}

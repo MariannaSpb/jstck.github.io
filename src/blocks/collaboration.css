@@ -1,0 +1,53 @@
+.collaboration {
+    padding-top: 71px;
+    padding-bottom: 100px;
+    background: #F2F5F8;
+}
+
+.collaboration__wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 979px;
+    margin: auto;
+}
+
+
+.collaboration__image {
+    width: 334px;
+    height: 347px;
+    margin-top: 28px;
+    margin-left: 28px;
+    mix-blend-mode: multiply;
+}
+
+.collaboration__description {
+    margin: 0;
+    margin-bottom: 37px;
+    max-width: 472px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    color: #898E93;
+}
+
+.collaboration__btn {
+    padding: 16px 11px;
+    display: inline-block;
+    width: 258px;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transition: opacity .3s;
+}
+
+.collaboration__btn:hover {
+    opacity: 0.5;
+}
+
+.collaboration__text-wrapper {
+    margin-top: 46px;
+    margin-right: 16px;
+}

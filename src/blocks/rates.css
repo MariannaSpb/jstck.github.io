@@ -1,0 +1,124 @@
+.rates {
+    /* padding-top: 117px; */
+    padding-top: 90px;
+    padding-bottom: 41px;
+
+    background: #F2F5F8;
+}
+
+.rates__wrapper {
+    max-width: 1204px;
+    margin: auto;
+}
+
+.rates__title {
+    margin: 0;
+    margin-bottom: 65px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: #00376E;
+}
+
+.rates__list {
+    display: flex;
+    justify-content: space-between; 
+    margin: 0;
+    margin-bottom: 44px;
+    padding: 0;
+    list-style: none;
+}
+
+.rates__item-list {
+    margin: 0;
+    min-height: 341px;
+    padding: 0;
+    list-style: none;
+}
+
+.rates__item-point {
+    position: relative;
+    margin-bottom: 25px;
+    padding-left: 37px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    color: #898E93;
+}
+
+.rates__item-point::before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 7px;
+    left: 0;
+    width: 23px;
+    height: 16.72px;
+    background-image: url(../images/checkbox.svg);
+    background-position: center;
+}
+
+.rates__item {
+    width: 33%;
+    max-width: 375px;
+    min-height: 622px;;
+    /* margin-right: 20px; */
+    padding: 35px 26px;
+    padding-bottom: 75px;
+    background: #FFFFFF;
+    box-sizing: border-box;
+}
+
+.rates__item--middle {
+    width: 33%;
+    min-width: 415px;
+}
+
+.rates__item-title {
+    margin: 0;
+    margin-bottom: 31px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: #00376E;
+}
+
+.rates__btn {
+    padding: 16px 11px;
+    display: block;
+    width: 196px;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transition: opacity .3s;
+}
+
+.rates__btn:hover {
+    opacity: 0.5;
+}
+
+
+.rates__price {
+   margin: 0;
+   font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: #00376E;
+}
+
+.rates__price-info {
+    margin: 0;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+
+    color: #00376E;
+}
